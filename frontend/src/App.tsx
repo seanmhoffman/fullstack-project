@@ -17,74 +17,74 @@ function App() {
         <div className="loading"></div>
         <div className="breed-list">
           <ul>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
-            <li>
+            <li className="breed-image">
               <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
               <span>Black Labrador</span>
               <div className="favorite">
-                <span>😍</span>
+                <span className="love_it">😍</span>
               </div>
             </li>
           </ul>
