@@ -1,9 +1,12 @@
 import React from 'react'
+import { connect } from 'react-redux'
 
-const Status = () => {
-  return (
-    <span className="status"></span>
-  )
-}
+const Status = ({status}) => (
+  status
+    ? <span className='status'>{status}</span>
+    : null
+)
 
-export default Status
+export default connect(
+  (state) => ({status: state.status})
+)(Status)
