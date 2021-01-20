@@ -7,14 +7,6 @@ import store from './store'
 import * as serviceWorker from './serviceWorker';
 import WebFont from 'webfontloader';
 
-WebFont.load({
-  google: {
-    families: ['Hachi Maru Pop:400', 'Open Sans:400,600,700', 'sans-serif']
-  }
-});
-
-import WebFont from 'webfontloader';
-
 import { BrowserRouter as Router } from "react-router-dom";
 
 WebFont.load({
