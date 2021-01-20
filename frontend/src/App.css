@@ -65,6 +65,7 @@
   background: rgba(0, 0, 0, 0.7);
   padding: 10px;
   transition: background .3s linear;
+  border-radius: 3px;
 }
 
 .hero-banner a:hover {
