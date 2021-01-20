@@ -5,20 +5,91 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="hero-banner">
+        <h1>Dog[Img]</h1>
+        <form>
+          <input type="text" placeholder="Search for Dogs by Breed..."/>
+        </form>
+        <a href="#">♥️ View Favorites</a>
       </header>
+      <section className="main">
+        <div className="status"></div>
+        <div className="loading"></div>
+        <div className="breed-list">
+          <ul>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+            <li>
+              <img src="https://picsum.photos/id/237/200/200" alt="Black Labrador" />
+              <span>Black Labrador</span>
+              <div className="favorite">
+                <span>😍</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
 }
